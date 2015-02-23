@@ -1,2 +1,6 @@
-# 1.IO_Simple_Problems
-n_dice
+from random import randint
+
+n=input("Enter sides:")
+n=int(n)
+p=randint(1,n)
+print("The dice rolled:",p)
