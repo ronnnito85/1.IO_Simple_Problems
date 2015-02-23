@@ -1,0 +1,8 @@
+from random import randint
+
+n=input("Enter sides:")
+n=int(n)
+p=randint(1,n)
+k=randint(1,n)
+q=randint(1,n)
+print("The first roll:",p,'\n',"The second roll:",k,'\n',"The third roll:",q)
