@@ -1,0 +1,5 @@
+a=input("First name:")
+b=input("Second name:")
+c=input("Third name:")
+print(a+'\n'+b+'\n'+c)
+print(a+" "+b+" "+c)
